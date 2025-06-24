@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: vg-ms-academic
+  data:
+    mongodb:
+      uri: mongodb+srv://kimberlingyactayo:4pFuaZFUkPconznZ@academic.xzsjnax.mongodb.net/vg_educational_levels?retryWrites=true&w=majority&appName=Academic
+server:
+  port: 8080
