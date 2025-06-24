@@ -1,20 +1,20 @@
 📚 VG-MS Educational Levels
 VG-MS Educational Levels is an academic software project developed by students at CETPRO Valle Grande as part of their Social Responsibility course. It aims to digitize educational levels and provide a structured, scalable, and user-friendly platform for managing educational data, supporting digital transformation in educational institutions.
 
-🔧 Tech Stack
+##🔧 Tech Stack
 Layer	Technology
 Backend	Java 17 (OpenJDK), Spring Boot + WebFlux
 Frontend	React (Vite/CRA recommended)
 Database	MongoDB (NoSQL), PostgreSQL (Relational)
 DevOps	GitLab CI/CD, Docker (optional), Firebase (planned)
 
-✅ Project Objectives
+##✅ Project Objectives
 Modernize the management of educational levels across institutions.
 Offer a web platform with real-time access to data.
 Empower students to work with real-world tech stacks.
 Foster collaborative development and technical documentation skills.
 
-🚀 Getting Started
+##🚀 Getting Started
 🔁 Clone the Repository
 git clone https://gitlab.com/vallegrande/as231s5_prs2/vg-ms-educational_levels.git
 cd vg-ms-educational_levels
@@ -26,7 +26,7 @@ git branch -M main
 git push -uf origin main
 
 
-🛠️ Project Setup
+##🛠️ Project Setup
 Backend (Spring Boot + WebFlux)
 cd backend
 ./mvnw clean install
@@ -42,7 +42,7 @@ cd frontend
 npm install
 npm start
 
-🔐 Environment Configuration
+##🔐 Environment Configuration
 Create a .env file in the backend root directory with:
 MONGODB_URI=mongodb+srv://<user>:<password>@cluster.mongodb.net/dbname
 POSTGRES_URL=jdbc:postgresql://localhost:5432/dbname
@@ -61,33 +61,33 @@ vg-ms-educational_levels/
 ├── CONTRIBUTING.md   # How to contribute
 └── README.md         # This file
 
-🧩 Application Usage
+##🧩 Application Usage
 Run backend and frontend.
 Navigate to http://localhost:3000.
 Register as a new user.
 View, add, edit, or delete educational levels.
 Use the “Contact Us” form to send suggestions or report bugs.
 
-🧪 Testing & Code Quality
+##🧪 Testing & Code Quality
 Backend: JUnit 5, Mockito
 Frontend: React Testing Library, Jest
 Run linters and tests before pushing code:
 
-# Backend
+### Backend
 ./mvnw test
 ./mvnw checkstyle:check
 
-# Frontend
+### Frontend
 npm run lint
 npm test
 
-🌐 CI/CD Pipeline (GitLab)
+##🌐 CI/CD Pipeline (GitLab)
 Auto-run tests on every push
 Linting and test coverage reports
 Deploy to staging (Firebase planned)
 Manual approval required for production
 
-🔭 Roadmap
+##🔭 Roadmap
 Feature	Status
 Authentication with roles (admin/user)	 ✅ In progress
 Firebase Hosting integration	           🔜 Planned
@@ -98,7 +98,7 @@ Multilingual support (i18n)	             🔜 Planned
 PostgreSQL integration	                 ✅ Completed
 Docker support	                         🔜 Planned
 
-🤝 Contributing
+##🤝 Contributing
 We welcome collaboration! Follow these steps:
 Fork the repository.
 
@@ -113,15 +113,15 @@ git push origin feature/my-new-feature
 
 Add Fixes #<issue-number> in your MR description when solving issues.
 
-🧑‍💻 Authors & Credits
+##🧑‍💻 Authors & Credits
 Developed by students of CETPRO Valle Grande
 Mentored by the Social Responsibility Program
 Special thanks to instructors and code reviewers
 
-📜 License
+##📜 License
 This project is licensed under the MIT License — see the LICENSE file for details.
 
-📞 Support & Contact
+##📞 Support & Contact
 📩 Open an issue on GitLab
 💬 Join our WhatsApp Support Group
 📧 Contact instructors via institutional email
