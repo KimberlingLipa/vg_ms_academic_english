@@ -23,19 +23,22 @@ VG-MS Educational Levels is an academic software project developed by students a
 git clone https://gitlab.com/vallegrande/as231s5_prs2/vg-ms-educational_levels.git
 cd vg-ms-educational_levels
 
-⬆️ Push Your Local Repo (If You Already Have One)
+###⬆️ Push Your Local Repo (If You Already Have One)
+```bash
 cd existing_repo
 git remote add origin https://gitlab.com/vallegrande/as231s5_prs2/vg-ms-educational_levels.git
 git branch -M main
 git push -uf origin main
 
 
-🛠️ Project Setup
+###🛠️ Project Setup
+```bash
 Backend (Spring Boot + WebFlux)
 cd backend
 ./mvnw clean install
 ./mvnw spring-boot:run
 
+```bash
 Requirements
 Java 17+
 Maven 3.8+
