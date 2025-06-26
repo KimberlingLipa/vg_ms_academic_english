@@ -1,21 +1,25 @@
-📚 VG-MS Educational Levels
+# 📚 VG-MS Educational Levels
+
 VG-MS Educational Levels is an academic software project developed by students at CETPRO Valle Grande as part of their Social Responsibility course. It aims to digitize educational levels and provide a structured, scalable, and user-friendly platform for managing educational data, supporting digital transformation in educational institutions.
 
-🔧 Tech Stack
-Layer	Technology
-Backend	Java 17 (OpenJDK), Spring Boot + WebFlux
-Frontend	React (Vite/CRA recommended)
-Database	MongoDB (NoSQL), PostgreSQL (Relational)
-DevOps	GitLab CI/CD, Docker (optional), Firebase (planned)
+## 🔧 Tech Stack
+| Layer     | Technology                          |
+|-----------|-------------------------------------|
+| Backend   | Java 17 (OpenJDK), Spring Boot + WebFlux |
+| Frontend  | React (Vite/CRA recommended)        |
+| Database  | MongoDB (NoSQL), PostgreSQL (Relational) |
+| DevOps    | GitLab CI/CD, Docker (optional), Firebase (planned) |
 
-✅ Project Objectives
-Modernize the management of educational levels across institutions.
-Offer a web platform with real-time access to data.
-Empower students to work with real-world tech stacks.
-Foster collaborative development and technical documentation skills.
+## ✅ Project Objectives
+- Modernize the management of educational levels across institutions.
+- Offer a web platform with real-time access to data.
+- Empower students to work with real-world tech stacks.
+- Foster collaborative development and technical documentation skills.
 
-🚀 Getting Started
-🔁 Clone the Repository
+## 🚀 Getting Started
+
+### 🔁 Clone the Repository
+```bash
 git clone https://gitlab.com/vallegrande/as231s5_prs2/vg-ms-educational_levels.git
 cd vg-ms-educational_levels
 
